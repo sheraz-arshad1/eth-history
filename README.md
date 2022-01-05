@@ -17,7 +17,7 @@
     MARIADB_DATABASE=Transfers
     MARIADB_CONNECTION_LIMIT=5 
    ```
-4. Run the script using `node alchemy-script.js` and provide the list of addresses to scan the history for command lines arguments separated by a space. Like so.
+4. Run the script using `node alchemy-script.js` and provide the list of addresses to scan the history for as command lines arguments separated by a space. Like so.
     ```
     node alchemy-script.js 0x5e624faedc7aa381b574c3c2ff1731677dd2ee1d 0xaf648ffbc940570f3f6a9ca49b07ba7bc520bcdf
     ```
