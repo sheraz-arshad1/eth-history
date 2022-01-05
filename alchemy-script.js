@@ -393,6 +393,9 @@ function aggregateData(data) {
                         acc,
                         type
                     ) => {
+                        if (!data[movement][type])
+                            return acc;
+
                         return [
                             ...acc,
                             ...(data[movement][type].map(
