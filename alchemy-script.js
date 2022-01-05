@@ -461,10 +461,10 @@ async function populateDatabase(data) {
                 aggregateData(data[account])
             );
             await conn.commit();
-            await conn.release();
             await acc;
         }, Promise.resolve()
     );
+    await conn.release();
 }
 
 /**
