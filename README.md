@@ -8,7 +8,7 @@
     mysql -u root -p < Schema.sql
     ```
 
-3. Create a `.env` file and provide following environment variables. Provide database HOST, USER and PASSWORD according to your settings.
+3. Create a `.env` file and provide following environment variables. Provide RPC_URL, database HOST, USER and PASSWORD according to your settings.
     ```
     RPC_URL=YOUR_RPC_API
     MARIADB_HOST=localhost
